@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Recetas Básicas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>En cocina con Pabliño</h1>
+    </header>
+    
+    <main>
+        <section id="recetas">
+            <h2>Recetas Destacadas</h2>
+            <article>
+                <h3>Omelette sencillo</h3>
+                <p>Ingredientes: Huevos, sal, pimienta, aceite.</p>
+                <p>Preparación: Bate los huevos, agrégales sal y pimienta, y cocínalos en una sartén con un poco de aceite.</p>
+            </article>
+        </section>
+        
+        <section id="comentarios">
+            <h2>Comentarios</h2>
+
+            <!-- Campo para el nombre -->
+            <input type="text" id="name_input" placeholder="Tu nombre" />
+
+            <!-- Campo para el comentario -->
+            <input type="text" id="entry_input" placeholder="Escribe un comentario" />
+
+            <!-- Boton para los agregar comentario -->
+            <button id="agregar_button">Agregar</button>
+
+            <!-- Contenedor de los comentarios -->
+            <div id="contenedor"></div>
+        </section>
+    </main>
+    
+    <script src="script.js"> </script>
+</body>
+</html>
