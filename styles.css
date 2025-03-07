@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #758AA7;
+    color: #275773;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #275773;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #9E9A7D;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #A55C55;
+}
+
+#comentarios {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #DBA67B;
+    border-radius: 8px;
+}
+
+input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #275773;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #A55C55;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #8C4A48;
+}
+
+.comentario {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.comentario p {
+    margin: 0;
+    font-weight: bold;
+    color: #275773;
+}
+
+.comentario small {
+    color: #555;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.delete-btn {
+    background-color: #A55C55;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    align-self: flex-end;
+    margin-top: 5px;
+}
+
+.delete-btn:hover {
+    background-color: #8C4A48;
+}
