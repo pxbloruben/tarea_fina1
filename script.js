@@ -6,3 +6,5 @@ let agregar_button = document.getElementById("agregar_button");
 let entry_input = document.getElementById("entry_input");
 let name_input = document.getElementById("name_input");
 
+// Variable para almacenar los comentarios
+let entries = { contents: [] };
